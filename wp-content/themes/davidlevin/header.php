@@ -29,6 +29,12 @@
     
 		
 		<script>
+			jQuery(".animateit").click(function(){
+				alert('hi');
+				$(".animateme").animate( { width: "200%" }, { queue: false, duration: 3000 })
+.animate({ fontSize: "24px" }, 1500 )
+.animate({ borderRightWidth: "15px" }, 1500 );
+				});
     jQuery.noConflict();
     </script>
  <link href="<?php bloginfo('template_url'); ?>/static/css/menu.css" type="text/css" rel="stylesheet" />
