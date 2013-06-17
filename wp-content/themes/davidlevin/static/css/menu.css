@@ -1,0 +1,209 @@
+/* hack reset (for production, use Yahoo! reset CSS)
+*************************/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* body
+*************************/
+
+body
+{
+	font: 14px/21px Georgia, serif;
+	color: #370707;
+	background: #000;
+}
+
+/* links
+*************************/
+
+a:link, a:visited, a:hover, a:active
+{
+	text-decoration: none;
+}
+
+/* inline elements
+*************************/
+
+strong
+{
+	font-weight: bold;
+}
+
+/* tabs
+*************************/
+
+ul.tabs
+{
+	display: table;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+ul.tabs li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table-cell;
+	float: left;
+	position: relative;
+}
+
+ul.tabs a
+{
+	position: relative;
+	display: block;
+}
+
+/* dropdowns
+*************************/
+
+ul.dropdown
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	z-index: 999;
+	top: 100%;
+	width: 250px;
+	display: none;
+	left: 0;
+}
+
+ul.dropdown ul.dropdown
+{
+	top: 0;
+	left: 95%;
+}
+
+ul.dropdown li
+{
+	margin: 0;
+	padding: 0;
+	float: none;
+	position: relative;
+	list-style: none;
+	display: block;
+}
+
+ul.dropdown li a
+{
+	display: block;
+}
+
+
+/* menu-specifc
+*************************/
+
+.top-menu
+{
+	padding: 0 15px;
+}
+
+#menu
+{
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	line-height: 40px;
+    min-width: 1024px;
+	background: #5e0809 url(../img/template/menuback.png) no-repeat;
+}
+
+#menu ul
+{
+	margin: 0 auto;
+}
+
+#menu ul li.hasmore
+{
+	/*background: url(../img/template/drophighlight.png) no-repeat center 27px;*/
+}
+
+#menu ul li h4
+{
+	margin: 0;
+}
+
+#menu ul li h4 a
+{
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
+#menu ul li a
+{
+	/*color: #bfafa0;*/
+    /*color: #872019;*/
+    color: #f05f44;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#menu ul li a img
+{
+	vertical-align: middle;
+}
+
+#menu ul li a:hover
+{
+	background-color: #212121;
+	border-left: #f05f44 solid 1px;
+	border-right: #f05f44 solid 1px;
+}
+
+#menu ul li a span
+{
+	display: block;
+	padding: 0 12px 0 12px;
+}
+
+#menu ul li a:hover span
+{
+	background-color: #212121;
+}
+
+#menu ul.dropdown
+{
+	padding: 10px;
+	background-image: url(../img/template/dropdown.png);
+	overflow:hidden;
+	border-bottom: 1px solid #a4a4a4;
+	width: 290px;
+}
+
+#menu ul.dropdown li a
+{
+	border-bottom: 1px solid #a4a4a4;
+	line-height: 30px;
+	overflow: hidden;
+	height: 30px;
+    color: #1f0302;
+}
+
+#menu ul.dropdown li.last a
+{
+	border-bottom-width: 0;
+}
+
+#menu ul.dropdown li a:hover
+{
+	/*background: url(../img/template/menuarrow.png) no-repeat left center;*/
+	color: #f05f44;
+}
+
+#menu ul li h4 a:hover
+{
+	background-image: none;
+}

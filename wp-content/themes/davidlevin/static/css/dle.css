@@ -1,0 +1,631 @@
+/* David Levin Entertainment */
+/* Copyright 2004-2007 Fred Elbel / David Levin Entertainment */
+/* This layout uses absolute vertical positioning for images */
+
+HTML { margin: 0; padding: 0; }
+
+body {  /* coordinate with hack, below */
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: #0000ff;
+}
+body#bandPageDarkBg { 
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+/* NS4 & IE3 hack: tables truncate style application - coordinate with Body above */
+p, address, blockquote, body, div, dl, h1, h2, h3, h4, h5, h6, ol, pre, span, ul {
+	font-family: "Times New Roman", Times, serif;
+}
+
+a:link    { color: #460081; }
+a:visited { color: #0000ff; }
+a:hover   { color: #F70C37; }
+body#bandPageDarkBg a:link    { color: #EB0505; }
+body#bandPageDarkBg a:visited { color: #D40404; }
+body#bandPageDarkBg a:hover   { color: #F0C800; }
+
+
+table#homePageTopTitleArea {
+	margin: 14px 0px 22px 0px;
+}
+
+table#homePageTopTitleArea tr td#topDleLogo {
+	padding: 0px 0px 0px 0px;
+}
+
+h1#homePageBanner {
+	width: 428px; height: 126px;
+	background: url("../images/dle_banner_home_page_no_phone.gif");
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	font-size: 30px;
+	color: #F92C2E;
+}
+body#bandPageDarkBg h1#homePageBanner {
+	background: url("../images/dle_banner_home_page_black.gif");
+}
+
+div.nav {
+	margin: 10px 0px 0px 0px;
+}
+div.nav img {
+	margin: 0px 0px 10px 0px;
+}
+td.homePageMainText {
+	margin: 0px 0px 0px 0px;
+	padding: 20px 20px 37px 26px;
+	background-color: #0000FF;
+}
+body#bandPageDarkBg td.homePageMainText {
+	background-color: #000000;
+}
+td.homePageMainText p {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #66ccff;
+	text-align: justify;
+}
+body#bandPageDarkBg td.homePageMainText p  {
+	color: #ffffff; /* #FD9EFF; */
+}
+td.homePageMainText p a:link    { color: #38E0F0; }
+td.homePageMainText p a:visited { color: #38E0F0; }
+td.homePageMainText p a:hover   { color: #F70C37; }
+
+
+table#homePageTwoColumnText {
+	margin: 58px 0px 0px 0px;
+}
+table#homePageTwoColumnText tr td.left {
+	padding: 16px 20px 25px 26px;
+	background-color: #0000FF;
+} 
+table#homePageTwoColumnText tr td.right {
+	padding: 16px 20px 25px 26px;
+	background-color: #0000FF;
+} 
+
+body#bandPageDarkBg table#homePageTwoColumnText tr td.left  {
+	background-color: #000000;
+}
+
+body#bandPageDarkBg table#homePageTwoColumnText tr td.right  {
+	background-color: #000000;
+}
+table#homePageTwoColumnText tr td p {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #66ccff;
+	text-align: justify;
+}
+
+
+table#homePageFinalTextBlocks {
+	margin: 56px 70px 0px 70px;
+	background-color: #0000FF;
+} 
+table#homePageFinalTextBlocks tr td {
+	padding: 8px 10px 6px 10px;
+	background-color: #0000FF;
+} 
+body#bandPageDarkBg table#homePageFinalTextBlocks tr td  {
+	background-color: #000000;
+}
+table#homePageFinalTextBlocks tr td  p {
+	padding: 0;
+	font-size: 14px;
+	line-height: 16px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #66ccff;
+	text-align: justify;
+} 
+
+div#homePageAffiliates {
+	float: left;
+	margin: 4px 4px 0px 0px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: #FFE74B; /* #6E7BB5; */
+}
+div#websiteBy  {
+	float: right;
+	margin: 4px 0 4px 0px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #A3AEE0; /* #6E7BB5; */
+}
+div#websiteBy a {
+	text-decoration: none;
+}
+div#homePageAffiliates a:link    { color: #FFE74B; }
+div#homePageAffiliates a:visited { color: #FFE74B; }
+div#homePageAffiliates a:hover   { color: #FFffff; }
+div#websiteBy a:link             { color: #A3AEE0; }
+div#websiteBy a:visited          { color: #A3AEE0; }
+div#websiteBy a:hover            { color: #FFffff; }
+
+
+div#homePageBottomPadding {
+	height: 90px;
+}
+
+
+table#outerContainer {
+	width: 790px;
+}
+table#pageHeader {
+	width: 790px;	
+	margin: 18px 5px 70px 5px;
+	text-align: center;
+	display: block;
+}
+table#contactPageHeader {
+	width: 790px;	
+	margin: 18px 5px 20px 5px;
+	text-align: center;
+	display: block;	
+}
+div#topNavigation {
+	width: 790px;	
+	margin: 18px 5px 70px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 10px;
+	line-height: 15px;
+	display: block;
+}
+div#bottomNavigation {
+	width: 790px;	
+	margin: 18px 5px 70px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 10px;
+	line-height: 15px;
+	display: block;
+}
+div#dlePageTitle {
+	font-size: 24px;
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+div#pageTitle, div#pageTitle h1 {
+	font-size: 32px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+	font-family: "Times New Roman", Times, serif;
+}
+div#contactPageTitle {
+	margin: 0px 0px 2px 0px;
+	padding: 0;
+	font-size: 24px;
+	color: #F0C000;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+div#pageSubtitle {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+}
+.contactNoSolicitors {
+	margin: 40px 0px 10px 0px;
+	padding: 0;
+	font-size: 18px;
+	color: red;
+	font-weight: 700;
+}
+.contactPhone {
+	margin: 10px 0px 10px 0px;
+	padding: 0;
+	font-size: 24px;
+	color: red;
+	font-weight: 700;
+}
+body#bandPageDarkBg div#pageTitle, body#bandPageDarkBg div#pageSubtitle {
+	color: #F0C000;
+}
+div#audioThisPage { 
+	margin: 30px 5px 10px 5px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 10px;
+	display: block;
+}
+div#pageDescriptionHeader {
+	width: 660px;	
+	margin: 40px 0px 30px 0px;
+	padding: 0px 0px 0px 18px;
+	font-size: 16px;
+	text-align: left;
+}
+div#pageDescriptionHeaderExtraVSpace {
+	width: 660px;	
+	margin: 54px 0px 30px 0px;
+	padding: 0px 0px 0px 18px;
+	font-size: 16px;
+	text-align: left;
+}
+div#pageDescriptionHeader a:link,     div#pageDescriptionHeaderExtraVSpace a:link    { color: #ffffff; }
+div#pageDescriptionHeader a:visited,  div#pageDescriptionHeaderExtraVSpace a:visited { color: #ffffff; }
+div#pageDescriptionHeader a:hover,    div#pageDescriptionHeaderExtraVSpace a:hover   { color: #F0C800; }
+div#pageDescriptionHeader a:active,   div#pageDescriptionHeaderExtraVSpace a:active  { color: #ffffff; }
+body#bandPageDarkBg div.bandDescription a:link    { color: #ffffff; }
+body#bandPageDarkBg div.bandDescription a:visited { color: #ffffff; }
+body#bandPageDarkBg div.bandDescription a:hover   { color: #F0C800; }
+body#bandPageDarkBg div.bandDescription a:active  { color: #ffffff; }
+
+
+div.extraHeaderNotes { 
+	margin: 2px 0px 15px 0px;
+	color: #FF0000; /* #6178D3; */
+	font-size: 14px; 
+	font-weight: 800;
+}
+div.extraHeaderNotesNoGeographicalTitle { /* for pages without yellow geographical title */
+	margin: 2px 0px -20px 0px;
+	color: #FF0000; 
+	font-size: 14px; 
+	font-weight: 800;
+}
+div.extraHeaderNotes a:link, div.extraHeaderNotesNoGeographicalTitle a:link    { color: #FF0000; }
+div.extraHeaderNotes a:visited, div.extraHeaderNotesNoGeographicalTitle a:visited { color: #FF0000; }
+div.extraHeaderNotes a:hover,div.extraHeaderNotesNoGeographicalTitle a:hover   { color: #FF6F00; }
+
+div#bottomContentLink {
+	padding: 10px 0 30px 0;
+}
+
+table#mainTextContainer {
+	width: 590px;
+}
+
+div.sectionHeading {
+	margin: 60px 0px 70px 0px;
+}
+div.sectionHeading h1, div.sectionHeading h2 , div.sectionHeading h3 {
+	width: 60%;
+	margin: 30px 0px 10px 0px;
+	border: 2px solid #ee0000;	
+	padding: 10px 15px 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
+div.geographicalSeparator {
+	margin: 40px 0px 40px 0px;
+}
+body#bandPageDarkBg div.geographicalSeparator p {
+	color: #F0C000;
+	font-size: 24px;
+	font-weight: 700;
+}
+/* p.top and p.bottom are for standard separator with a line between sections */
+div.geographicalSeparator p.top { 
+	margin: 10px 0px 10px 0px;
+	padding: 0px 0px 20px 20px;
+	border-bottom: 1px dashed #990000;
+}
+div.geographicalSeparator p.bottom {
+	margin: 15px 0px 10px 0px;
+	padding: 0px 0px 20px 20px;
+}
+div.geographicalSeparator h2.singleHeadingLine {
+	font-size: 32px;
+	font-weight: 700;
+	text-decoration: underline;
+	color: #F0C000;
+}
+
+
+/* Band listing container.  
+  'left' means the photo is on the left; 'right' means on the right.
+   Left and right variants provide for padding to justify band text and photos. */
+
+table.bandListing {
+	/* margins should be symmetric */
+	margin: 100px 30px 100px 30px;  
+	/* border: 1px solid #ff0000; for layout testing only */
+	padding: 0;
+	display: block;
+}
+div.left table.bandListing tr td div.bandTextBlock {
+	margin:  0px 5px 0px 50px; /* margins must mirror div.right, below */
+	padding: 0;
+	display: block;
+}
+div.right table.bandListing tr td div.bandTextBlock {
+	margin: 0px 50px 0px 5px; /* 5px vs 2px 2008aug22 */
+	/* margin: 0px 50px 0px 2px; orig, non-corresponding 2px */
+	padding: 0;
+	display: block;
+}
+div.bandName { 
+	margin: 2px 0px 20px 0px;
+	padding: 0;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+}
+#bandPageDarkBg .bandName {
+									color: #FA0075; /* #E30037; */
+}
+.bandSubName {
+	font-size: 16px; 
+	font-weight: 700;
+	text-align: center;
+}
+#bandPageDarkBg .bandSubName {
+									color: #FA0075; /* #E30037; */
+}
+div.bandDescription { 
+	font-size: 16px;
+}
+.bandPhoto img {
+	margin: 0;
+	padding: 0;
+	display: block;
+	border: 1px solid #AAAAAA; /* no border for montages because of cutouts! */
+}
+body#bandPageDarkBg .bandPhoto img {
+													border: 3px solid #F0C000; 	
+}
+img.noBorder {
+	border: 0!important;
+}
+
+div.sectionNotes { 
+	width: 600px;
+	margin: 2px 0px 50px 0px;
+	color: #FF0000; /* #6178D3; */
+	font-size: 14px; 
+	font-weight: 800;
+}
+div.sectionNotes a:link    { color: #FF0000; }
+div.sectionNotes a:visited { color: #FF0000; }
+div.sectionNotes a:hover   { color: #FF6F00; }
+
+
+div.listen table {  /* individual tracks */
+	background-color: #EBE3E1;
+	border: 1px solid #aa0000;
+	margin: 30px 20px 3px 20px;
+	padding: 0;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	/* letter-spacing: 1.2px; */
+	word-spacing: 14px;
+	line-height: 13px;
+	color: #000000;
+}
+div.listen table tr td {
+	padding: 6px 16px 6px 10px; 
+}
+div.listen table tr td img       { margin: 0px 8px 0px 4px; }
+div.listen table tr td a         { font-size: 11px; font-weight: 700; } 	 
+div.listen table tr td a:link    { color: #0033FF; }
+div.listen table tr td a:visited { color: #A1A2AB; }
+div.listen table tr td a:hover   { color: #ff0000; }
+div.listen table tr td a:active  { color: #ff0000; }
+div.listenAudioContinuationRow {
+	display: block;
+	padding: 8px 0px 0px 90px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	/* letter-spacing: 1.2px; */
+	word-spacing: 14px;
+	line-height: 13px;
+}
+
+
+div.listenPlaylist table {
+	background-color: #EBE3E1;
+	border: 1px solid #aa0000;
+	margin: 30px 20px 3px 20px;
+	padding: 0;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	/* letter-spacing: 1.2px; */
+	line-height: 13px;
+}
+
+div.listenPlaylist table tr td {
+	padding: 6px 16px 6px 10px; 
+}
+body#bandPageDarkBg div.listenPlaylist table tr td {
+	color: #000000;
+}
+div.listenPlaylist table tr td img       { margin: 0px 8px 0px 4px; }
+
+
+
+div.watch table {
+	background-color: #EBE3E1;
+	border: 1px solid #aa0000;
+	margin: 20px 2px 1px 2px;
+	padding: 3px 8px 3px 8px;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	/* letter-spacing: 1.2px; */
+	word-spacing: 13px;
+	line-height: 22px;
+	color: #444444;
+}
+div.watch table tr td a { 
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px; font-weight: 700; } 	 
+div.watch table tr td a:link    { color: #0033FF; }
+div.watch table tr td a:visited { color: #A1A2AB; }
+div.watch table tr td a:hover   { color: #ff0000; }
+div.watch table tr td a:active  { color: #ff0000; }
+div.watch table tr td p {
+	margin: 2px 2px 2px 2px;
+	text-align: left;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	word-spacing: 0px;
+	line-height: 14px;
+}
+
+div.watch table tr td p a       { font-size: 12px; }
+span.watchComment {
+	color: #990000;
+	font-size: 14px;
+}
+
+.videoBlock {
+	margin:  60px 0 100px 0;
+}
+.normal {font-size: 12px; }
+.large { font-size: 14px; }
+.larger { font-size: 16px; }
+.largest { font-size: 22px; }
+.small { font-size: 10px; }
+.smaller { font-size: 9px; }
+.smallest { font-size: 9px; }
+
+.red {
+	color: #ff0000;
+}
+
+
+img.floatLeftImage {
+	float: left;
+	margin: 0px 14px 6px 0px;
+	padding: 0;
+}
+img.floatrightImage {
+	float: right;
+	margin: 0px 0px 6px 14px;
+	padding: 0;
+}
+
+div.contactInputForm table {
+	background: #F7E9C8; /* #F7F1E1; */
+	border: 1px dashed #111111;
+}
+div.contactInputForm table tr td {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	color: #545463;
+	font-size: 12px;
+	padding: 8px 0px 5px 40px;
+}
+div.contactInputForm table tr td.required {
+	font-weight: 600;
+	color: #FF1111; /* #2727D9; */
+}
+input:focus {
+	background-color: #FFFFE2;
+}
+
+
+.question {
+	margin:0px 0px 0px 0px;
+	font-weight: 700;
+	font-size: 14px;
+
+}
+.answer {
+	margin: 20px 0px 50px 30px;
+	font-weight: 700;
+	color: #ff0000;
+	font-size: 14px;
+}
+body#bandPageDarkBg .answer {
+	color: #FF8FA5;
+}
+
+body#commentsPage {
+	background-color: #ff69b4;
+}
+div#clientList  h2 {
+	margin: 5px 0px 5px 0px;
+	font-size: 24px;	
+	color: #000000;
+	text-align: center;
+	text-decoration: underline;
+}
+div#clientList  h3 {
+	margin: 70px 0px 25px 0px;
+	font-size: 24px;	
+	color: #000000;
+	text-align: center;
+	text-decoration: underline;
+}
+div#clientList  h3.first {
+	margin-top: 4px;
+}
+div#clientList p {
+	margin: 6px 0px 4px 0px;
+	padding: 0;
+	color: #ffc0cb;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;	
+}
+body#bandPageDarkBg div#clientList  h2 {
+	color: #C0C000;
+}
+body#bandPageDarkBg div#clientList  h3 {
+	color: #C0C000;
+}
+body#bandPageDarkBg div#clientList p {
+	color: #FF8FA5;
+}
+
+
+div#clientComments h2 {
+	margin: 70px 0px 40px 0px;
+	font-size: 23px;
+	text-align: center;
+	text-decoration: underline;
+ 	color: #F0C000;
+}
+div#clientComments h3 {
+	margin: 60px 0px 40px 0px;
+	font-size: 19px;
+	text-align: center;
+}
+div#clientComments div.comment {
+	margin: 10px 0px 0px 0px;
+	font-size: 14px;
+}
+div#clientComments div.comment p {
+	color: #ffffff;
+	font-weight: 700;
+}
+body#bandPageDarkBg div.comment p {
+	color: #FD9EFF; /* #FF8FA5; */
+}
+div#clientComments div.commentBy {
+	margin: 0px 0px 70px 0px;
+}
+div#clientComments div.commentBy p {
+	color: #ffffff;
+	text-align: right;
+	font-weight: 700;
+	font-size: 18px;
+}
+body#bandPageDarkBg div.commentBy p {
+	color: #dddddd;
+}
