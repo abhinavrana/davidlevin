@@ -1735,3 +1735,16 @@ img#wpstats {
 .mycontent{
 margin-top: -115px;
 }
+.single-block{
+	border:1px solid #ffffff;
+	overflow:hidden;
+}
+.single-block-img{
+	float:left;
+}
+.image-text{
+	font-size:14px;
+	color:#ffffff;
+	float:left;
+	width:50%;
+}

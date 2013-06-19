@@ -449,14 +449,4 @@ function twentytwelve_customize_preview_js() {
 }
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 
-function my_scripts_method() {
-if ( !is_admin() ) {
-wp_enqueue_script(
-'custom-script',
-get_stylesheet_directory_uri() . '/js/tabs.js',
-array('jquery')
-);
-wp_enqueue_script('jquery-ui-tabs');
-}
-}
-add_action('wp_enqueue_scripts', 'my_scripts_method');
+
