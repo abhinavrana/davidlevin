@@ -4,14 +4,7 @@
  */
 
 get_header(); ?>
-<!--
-<script type="text/javascript">
-jQuery(document).ready(function(){
-jQuery("#tabs").tabs();
-jQuery("#accordion").accordion();
-});
-</script>
--->
+
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 

@@ -1736,8 +1736,12 @@ img#wpstats {
 margin-top: -115px;
 }
 .single-block{
-	border:1px solid #ffffff;
+	border:3px solid maroon;
 	overflow:hidden;
+	width: 90%;
+margin-left: 5%;
+margin-bottom: 4%;
+padding: 10px;
 }
 .single-block-img{
 	float:left;
@@ -1747,4 +1751,10 @@ margin-top: -115px;
 	color:#ffffff;
 	float:left;
 	width:50%;
+	margin-left:1%;
+	margin-right:1%;
+    padding: 10px;
+}
+.animateme{
+font-family: Zapf-Chancery;
 }

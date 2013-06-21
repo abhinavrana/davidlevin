@@ -19,6 +19,19 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <script type="text/javascript">
+	jQuery.easing['jswing']=jQuery.easing['swing'];jQuery.extend(jQuery.easing,{easeOutBounce:function(x,t,b,c,d){if((t/=d)<(1/2.75)){return c*(7.5625*t*t)+b}else if(t<(2/2.75)){return c*(7.5625*(t-=(1.5/2.75))*t+.75)+b}else if(t<(2.5/2.75)){return c*(7.5625*(t-=(2.25/2.75))*t+.9375)+b}else{return c*(7.5625*(t-=(2.625/2.75))*t+.984375)+b}}});
+
+$('.gHover').hover(function() {
+    $(this).stop().animate({
+        margin: 15
+    },900,"easeOutBounce");
+}, function() {
+    $(this).stop().animate({
+        margin: 0
+    },900,"easeOutBounce");
+});
+	
+	
 var counter = 0;
 $('.single-block-img').hover(function(){
 counter++;
@@ -44,10 +57,13 @@ $('.animateme-current'+counter).text($('.animateme-current'+counter).text().slic
 clearTimeout(timeOut);
 }
 
-}, 22);
+}, 3);
 }());
 
 }
+
+
+
 </script>
 <?php wp_footer(); ?>
 </body>
